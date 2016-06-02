@@ -4,11 +4,12 @@
   "description": "",
   "main": "graph.js",
   "dependencies": {
-    "jasmine": "^2.3.2"
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "",
   "license": "ISC"
